@@ -4,4 +4,4 @@
 sudo chmod +x d2j_invoke.sh
 
 2. convert dex to jar
-sh d2j-dex2jar.sh app.apk
+dex2jar/sh d2j-dex2jar.sh app.apk
