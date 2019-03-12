@@ -1,0 +1,9 @@
+
+1 . list command
+apktool
+
+2.decompile it
+apktool d app.apk
+
+3.build it
+apktool b -o app.apk
