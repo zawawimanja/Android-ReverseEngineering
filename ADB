@@ -1,0 +1,13 @@
+
+//list all package
+adb shell pm path com.android.systemui
+
+//pull from device
+adb pull 
+
+//sign key
+git clone https://github.com/appium/sign
+java -jar sign/dist/signapk.jar sign/testkey.x509.pem sign/testkey.pk8 namaapk.apk signed.apk
+
+//install apps tu
+adb install signed.apk
