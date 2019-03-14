@@ -12,3 +12,6 @@ apktool b -o app.apk
 
 //uninstall
 sudo apt-get remove apktool
+
+
+//apktool.bat kena open guna notepad++ saves as bat file then it work
