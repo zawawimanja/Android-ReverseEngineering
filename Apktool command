@@ -14,4 +14,8 @@ apktool b -o app.apk
 sudo apt-get remove apktool
 
 
+//downdload jdk8 sre pastu user create new user environment 
+1. JDK_HOME
+2. path jdk
+
 //apktool.bat kena open guna notepad++ saves as bat file then it work
