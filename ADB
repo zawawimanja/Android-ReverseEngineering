@@ -1,3 +1,8 @@
+//nak run install adb
+cari file sdk folder pastu run ccmd
+adb devices
+
+
 
 //list all package
 adb shell pm path com.android.systemui
