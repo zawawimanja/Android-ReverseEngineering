@@ -2,6 +2,9 @@
 cari file sdk folder pastu run ccmd
 adb devices
 
+//stop running process
+adb shell am force-stop packagenameapk
+
 
 
 //list all package
