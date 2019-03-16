@@ -1,0 +1,10 @@
+/*MANIFEST.MF file with the SHA-1 or SHA-256 hashes of all the files inside the APK.
+A CERT.SF file, pretty much like the MANIFEST.MF, but signed with the RSA key.
+A CERT.RSA file which contains the developer public key used to sign the CERT.SF file and digests */
+
+
+cd folder META_INF
+openssl pkcs7 -in CERT.RSA -inform DER -print
+
+
+display all information key
