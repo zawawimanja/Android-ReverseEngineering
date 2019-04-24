@@ -16,6 +16,7 @@ adb pull
 //sign key
 git clone https://github.com/appium/sign
 java -jar sign/dist/signapk.jar sign/testkey.x509.pem sign/testkey.pk8 namaapk.apk signed.apk
+//letak namaapk.apk dekat luar folder sign
 
 //install apps tu
 adb install signed.apk
