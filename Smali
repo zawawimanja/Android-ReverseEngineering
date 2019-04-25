@@ -1,3 +1,8 @@
+//Boolean
+
 const v4,0x1 true
 
 const v4,0x0 false
+
+//value hex in smali
+0x0 
