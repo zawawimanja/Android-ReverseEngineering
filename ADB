@@ -1,5 +1,5 @@
 //nak run install adb
-cari file sdk folder pastu run ccmd
+cari file sdk folder pastu run cmd
 adb devices
 
 //stop running process
@@ -23,3 +23,18 @@ adb install signed.apk
 
 //link adb
 http://adbshell.com/
+
+
+//First of all let’s plug our smartphone to the USB port of our computer and get a list of the installed packages and their namespaces:
+
+adb shell pm list packages
+//This will list all packages on your smartphone, once you’ve found the namespace of the package you want to reverse ( com.android.systemui in this example ), let’s see what its physical path is:
+
+adb shell pm path com.android.systemui
+//Finally, we have the APK path:
+
+package:/system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+//Let’s pull it from the device:
+
+adb pull /system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+//And here you go, you have the APK you want to reverse!
