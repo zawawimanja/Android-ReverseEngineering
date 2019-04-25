@@ -1,0 +1,11 @@
+To easily list all the temporary files, you can use the following command:
+
+adb shell ls /data/local/tmp
+
+To remove all of them, you can just use the following command:
+
+adb shell rm /data/local/tmp/*
+
+
+1. https://www.youtube.com/watch?v=8mImXPPs03E
+2. release find x86 64
