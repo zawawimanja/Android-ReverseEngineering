@@ -4,7 +4,13 @@ A CERT.RSA file which contains the developer public key used to sign the CERT.SF
 
 
 cd folder META_INF
+pastu path folder select all & type cmd
 openssl pkcs7 -in CERT.RSA -inform DER -print
 
 
 display all information key
+
+
+//download openssl in win10 first
+https://www.youtube.com/watch?v=3I7eL2Mm6Ps
+https://www.softpedia.com/get/Programming/Components-Libraries/OpenSSL.shtml
