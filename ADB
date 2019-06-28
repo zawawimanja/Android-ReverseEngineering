@@ -41,3 +41,7 @@ Pull the APK file from the Android device to the development box.
 
 adb pull /data/app/com.example.someapp-2.apk
 
+//copy file logcat to pc
+//navigate to adb folder
+adb shell logcat -t 500 > D:\logcat_output.txt
+
