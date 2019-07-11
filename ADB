@@ -45,3 +45,11 @@ adb pull /data/app/com.example.someapp-2.apk
 //navigate to adb folder
 adb shell logcat -t 500 > D:\logcat_output.txt
 
+//////////////////////////////////////////////////////////////
+
+1. connect wireless
+
+adb tcpip 5555
+adb connect ipaddress:5555
+
+
