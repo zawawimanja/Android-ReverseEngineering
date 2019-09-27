@@ -26,18 +26,15 @@ http://adbshell.com/
 
 
 //First of all let’s plug our smartphone to the USB port of our computer and get a list of the installed packages and their namespaces:
-
 adb shell pm list packages
 //This will list all packages on your smartphone, once you’ve found the namespace of the package you want to reverse ( com.android.systemui in this example ), let’s see what its physical path is:
 
 
-Get the full path name of the APK file for the desired package.
-
+//Get the full path name of the APK file for the desired package.
 adb shell pm path com.example.someapp
 
-The output will look something like this: package:/data/app/com.example.someapp-2.apk
-
-Pull the APK file from the Android device to the development box.
+//The output will look something like this: package:/data/app/com.example.someapp-2.apk
+//Pull the APK file from the Android device to the development box.
 
 adb pull /data/app/com.example.someapp-2.apk
 
