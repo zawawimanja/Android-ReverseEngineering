@@ -1,6 +1,10 @@
 # Android-Security
 Android Secure
 
+Resources
+
+https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
+
 3 option to decompile and get the source code..
 
 1. Use apktool to decompile the apk - dex to  smali
