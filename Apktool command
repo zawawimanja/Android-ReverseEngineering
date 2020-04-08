@@ -8,7 +8,7 @@ apktool d app.apk
 3.build it
 //kena delete ic_laucher foreground 0
 apktool b -o app.apk
-
+apktool b astrogo -o app.apk
 
 //uninstall
 sudo apt-get remove apktool
